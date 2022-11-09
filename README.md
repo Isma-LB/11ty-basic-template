@@ -60,9 +60,11 @@ starts the local backend script from Netlify CMS
 
 ### 6. Change and configure the template
 
-The idea of this template is to ease out the start of a project by including a js and css bundler and minify workflow, as well as the Netlify CMS for content management, but you can add, bend, twist, combine, remove or change any of the behavior. Be aware of this useful resources:
+The idea of this template is to ease out the start of a project by including a js and css bundler and minify workflow, as well as the Netlify CMS for content management, but you can add, bend, twist, combine, remove or change any of the behavior. 
 
-- (11ty docs)[https://www.11ty.dev/docs/]
-- (11ty templates)[https://www.11ty.dev/docs/templates/]
-- (Netlify cms configuration)[https://www.netlifycms.org/docs/configuration-options/] (in config.yml)
-- (Netlify cms Widgets)[https://www.netlifycms.org/docs/widgets/] (what you can use in the CMS ui)
+Be aware of this useful resources:
+
+- [11ty docs](https://www.11ty.dev/docs/)
+- [11ty templates](https://www.11ty.dev/docs/templates/)
+- [Netlify cms configuration](https://www.netlifycms.org/docs/configuration-options/) (in config.yml)
+- [Netlify cms Widgets](https://www.netlifycms.org/docs/widgets/) (what you can use in the CMS ui)
