@@ -1,0 +1,15 @@
+---
+permalink: assets/style.css
+minify: false
+---
+{# File used to bundle css, add files by include order reflected in th output file,
+ minify in the fornt matter toggles the behavior#}
+{% set css %}
+  {% include './_css/main.css' %}
+  {% include './_css/details.css'%}
+{% endset %}
+{%- if minify -%}
+  {{- css | cssmin | safe -}}
+{%- else -%}
+  {{- css | safe -}}
+{%- endif -%}

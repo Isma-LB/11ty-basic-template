@@ -1,0 +1,11 @@
+/* separation just to test the bundle */
+details pre {
+  padding-inline: 2rem;
+}
+summary {
+  border: solid 1px #58d68d;
+  border-radius: 5px;
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}

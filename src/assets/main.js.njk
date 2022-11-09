@@ -1,0 +1,14 @@
+---
+permalink: "{{ page.filePathStem }}"
+minify: false
+---
+{# File used to bundle javascript, add files by include order reflected in th output file,
+ minify in the fornt matter toggles the behavior#}
+{%- set js -%}
+  {%- include './_js/menu.js' -%}
+{%- endset -%}
+{%- if minify -%}
+  {{- js | jsmin | safe -}}
+{%- else -%}
+  {{- js | safe -}}
+{%- endif -%}

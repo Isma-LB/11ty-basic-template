@@ -1,0 +1,7 @@
+# ignore npm stuff
+node_modules
+# build output
+public
+_site
+
+# add what you need for your project here

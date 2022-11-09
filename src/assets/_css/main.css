@@ -1,0 +1,18 @@
+/* Test */
+* {
+  color: #58d68d;
+  font-family: "Courier New", Courier, monospace;
+  line-height: 1.47rem;
+}
+body {
+  background: #283747;
+  margin: 2rem;
+}
+
+p {
+  max-width: 64ch;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}

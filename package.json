@@ -1,0 +1,31 @@
+{
+  "name": "11ty-basic-template",
+  "version": "1.0.0",
+  "description": "Web Page Template with 11ty made by IsmaGames",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy",
+    "cms": "npx netlify-cms-proxy-server",
+    "start-dev": "start npm run cms && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Isma-LB/11ty-basic-template.git"
+  },
+  "author": "IsmaLB",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Isma-LB/11ty-basic-template/issues"
+  },
+  "homepage": "https://github.com/Isma-LB/11ty-basic-template#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.2"
+  },
+  "dependencies": {
+    "@11ty/eleventy-img": "^2.0.1",
+    "clean-css": "^5.3.1",
+    "terser": "^5.15.1"
+  }
+}
+

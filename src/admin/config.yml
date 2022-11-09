@@ -1,0 +1,34 @@
+backend:
+  name: test-repo
+  branch: main
+
+local_backend: true
+
+media_folder: "src/assets/uploads"
+public_folder: "assets/uploads"
+
+collections:
+  - name: generalSettings
+    label: General Settings
+    files:
+      - name: general
+        label: Site Settings
+        file: "src/_data/general.json"
+        fields:
+          - { label: "Title", name: "website_name", widget: "string" }
+  - name: pages
+    label: Pages
+    files:
+      - name: index
+        label: Home page
+        file: "src/index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body text", name: "body", widget: "markdown" }
+          - label: "Image"
+            name: "testImage"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Image file", name: "img", widget: "image", media_folder: "/src/assets/img" }
+              - { label: "Alternative text", name: "alt", widget: "string" }
