@@ -4,8 +4,8 @@
   "description": "Web Page Template with 11ty made by IsmaGames",
   "main": "index.js",
   "scripts": {
-    "start": "eleventy --serve",
-    "build": "eleventy",
+    "start": "@11ty/eleventy --serve",
+    "build": "@11ty/eleventy",
     "cms": "npx netlify-cms-proxy-server",
     "start-dev": "start npm run cms && npm start"
   },
@@ -28,4 +28,3 @@
     "terser": "^5.15.1"
   }
 }
-
